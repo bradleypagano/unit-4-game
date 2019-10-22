@@ -14,14 +14,26 @@ $(document).ready(function(){
     let randomNum4 = Math.floor(Math.random()*(12-1)+1);
 
     $(".crystal").on("click", function(){
+        const genNumber = $(this);
+
         if (computerNumber === playerNumber){
             $(".scoreCard").append("<div>Congrats! You did it...</div>");
-            wins++; 
+            wins++;
+            reset(); 
         } else if (playerNumber > computerNumber){
             $(".scoreCard").append("<div>You are a disappointment to your species...</div>");
             losses++;
+            reset();
         } else if (playerNumber < computerNumber){
-            $(".yourNum").add()
+            $(".yourNum").text(playerNumber + genNumber);
+        };
+    
+        reset = function (){
+            playerNumber = 0;
+            let randomNum1 = Math.floor(Math.random()*(12-1)+1);
+            let randomNum2 = Math.floor(Math.random()*(12-1)+1);
+            let randomNum3 = Math.floor(Math.random()*(12-1)+1);
+            let randomNum4 = Math.floor(Math.random()*(12-1)+1);
         };
     });
 });

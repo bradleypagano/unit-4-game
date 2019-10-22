@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Crystal Game</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script src="./assets/javascript/game.js"></script>
 </head>
 
 <body>
     <h1>Crystals Collector!!!</h1>
-    <h3>The Return of the Clicks!</h3>
+    <h4>The Clicks Awaken!</h4>
     <div class="instructions">
         <p>
             You will be given a random number at the start of the game.
@@ -34,19 +39,22 @@
         </p>
     </div>
     <div class="row">
-        <div class="randomNum">
-            <div class="scoreCard">
-            </div>
+        <div class="randomNum col-3"></div>
+        <div class="scoreCard col-2">
+            <div class="wins">Wins:</div>
+            <div class="losses">Losses:</div>
         </div>
     </div>
     <div class="row">
-        <div class="crystal" id="choice1"></div>
-        <div class="crystal" id="choice2"></div>
-        <div class="crystal" id="choice3"></div>
-        <div class="crystal" id="choice4"></div>
+        <img src="./assets/images/crystal1.jpeg"class="crystal col-1" id="choice1" alt="crystal1"/>
+        <img src="./assets/images/crystal2.jpeg"class="crystal col-1" id="choice1" alt="crystal2"/>
+        <img src="./assets/images/crystal3.jpeg"class="crystal col-1" id="choice1" alt="crystal3"/>
+        <img src="./assets/images/crystal4.jpeg"class="crystal col-1" id="choice1" alt="crystal4"/>
     </div>
-    <div class="row"></div>
-    <div class="playerNum"></div>
+    <div class="row">
+        <div class="col-3">Your Total Score is:</div>
+    </div>
+    <div class="yourNum"></div>
 </body>
 
 </html>

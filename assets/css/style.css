@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/cavern.jpeg);
+}
+.instructions{
+    background-color: bisque;
+}
+.wins{
+    color: bisque;
+    font-weight: bolder;
+}
+.losses{
+    color: bisque;
+    font-weight: bolder;
+}
+h1{
+    background-color: coral;
+}
+h4{
+    background-color: coral;
+}
+.emptyDiv{
+    color: bisque;
+    font-weight: bolder;
+}
+.yourNum{
+    color: bisque;
+    font-weight: bolder;
+}
+.col-3{
+    color: bisque;
+    font-weight: bolder;
+}

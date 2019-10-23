@@ -39,11 +39,17 @@ $(document).ready(function(){
             $(".emptyDiv").text("Congrats! You did it...");
             wins++;
             $(".wins").text("Wins: " + wins);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset(); 
         } else if (playerNumber > computerNumber){
             $(".emptyDiv").text("You are a disappointment to your species...");
             losses++;
             $(".losses").text("Losses: "+ losses);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset();
         };
     });
@@ -54,11 +60,17 @@ $(document).ready(function(){
             $(".emptyDiv").text("Congrats! You did it...");
             wins++;
             $(".wins").text("Wins: " + wins);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset(); 
         } else if (playerNumber > computerNumber){
             $(".emptyDiv").text("You are a disappointment to your species...");
             losses++;
             $(".losses").text("Losses: "+ losses);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset();
         };
     });
@@ -69,11 +81,17 @@ $(document).ready(function(){
             $(".emptyDiv").text("Congrats! You did it...");
             wins++;
             $(".wins").text("Wins: " + wins);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset(); 
         } else if (playerNumber > computerNumber){
             $(".emptyDiv").text("You are a disappointment to your species...");
             losses++;
             $(".losses").text("Losses: "+ losses);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset();
         };
     });
@@ -84,11 +102,17 @@ $(document).ready(function(){
         $(".emptyDiv").text("Congrats! You did it...");
             wins++;
             $(".wins").text("Wins: " + wins);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset(); 
         } else if (playerNumber > computerNumber){
             $(".emptyDiv").text("You are a disappointment to your species...");
             losses++;
             $(".losses").text("Losses: "+ losses);
+            setInterval(() => {
+                $(".emptyDiv").empty();
+            }, 7000);
             reset();
         };
     });
